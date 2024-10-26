@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      id="ultimate-vc-addons-google-fonts-css"
+      href="https://fonts.googleapis.com/css?family=Inter:regular,700,800&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese"
+      type="text/css"
+      media="all"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="flex justify-between p-4 header">
+      <div class="left">
+        <img
+          class="w-40"
+          src="https://melrol.com/wp-content/uploads/2023/09/screenshot-2023-08-22-at-113300-auto-x2-no-background1692679234-scaled.jpg"
+          alt=""
+          title="Melrol - Giải pháp thiết kế thông minh"
+        />
+      </div>
+      <ul id="navbar" class="mt-2 font-bold center">
+        <li class="px-4 page">Trang chủ</li>
+        <li class="px-4 page">Thông tin</li>
+        <li class="px-4 page">Dự án</li>
+        <li class="px-4 page">Dịch vụ</li>
+        <li class="px-4 page">Liên hệ</li>
+        <li class="px-4 page">FAQ</li>
+      </ul>
+      <div class="right pl-40">
+        <ion-icon id="icon-watch" class="icon-watch search" name="search-outline"></ion-icon>
+        <ion-icon
+          id="menu-icon"
+          class="icon-watch menu"
+          name="menu-outline"
+        ></ion-icon>
+      </div>
+    </header>
+    <!-- End header -->
+    <!-- Search part -->
+    <div id="search-bar" class="search-bar flex justify-center items-center dn">
+      <button id="close-search" class="close-search">
+        <ion-icon class="close-icon" name="close-circle-outline"></ion-icon>
+      </button>
+      <div class="search-area">
+        <input
+          class="text-8xl"
+          type="text"
+          name=""
+          placeholder="Tìm kiếm..."
+          id=""
+        />
+      </div>
+    </div>
+    <!-- Slider -->
+    <div>
+      <div class="wrapper">
+        <div class="carousel">
+          <div>
+            <img
+              class="carousel-img"
+              src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png"
+            />
+          </div>
+          <div>
+            <img
+              class="carousel-img"
+              src="https://static.topcv.vn/cms/lap-trinh-web-la-gi-topcv-864b4a89f719e6.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Slider -->
+
+    <!-- Introduce -->
+    <div class="info container mx-auto px-20 mt-40">
+      <div class="introduce">
+        <h1 class="font-bold text-5xl">
+          Chúng tôi thiết kế và phát triển giải pháp kỹ thuật số.
+        </h1>
+        <p class="description mt-6">
+          Bạn đang không biết mình cần gì? Bạn cần một hệ thống cho riêng mình?
+          Bạn muốn giải pháp hiệu quả và tối ưu nhất? Thế thì hãy đến với
+          Melrol. Ở đây chúng tôi sẽ ngồi lại với bạn, cùng nhau xác nhận và tìm
+          ra mục tiêu cần đạt được theo nhu cầu của bạn.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-20">
+        <div class="">
+          <div class="left">
+            <ion-icon class="info-icon" name="leaf-outline"></ion-icon>
+          </div>
+
+          <div class="">
+            <div class="">
+              <h4 class="font-bold text-2xl">Sáng tạo</h4>
+              <p class="mt-4">
+                Tương tác với thương hiệu của bạn mạnh mẽ thông qua sự hợp tác
+                và chia sẻ ý tưởng thay vì chỉ đưa ra các lựa chọn cố định như
+                những bên khác
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="left">
+            <ion-icon class="info-icon" name="leaf-outline"></ion-icon>
+          </div>
+
+          <div class="">
+            <div class="">
+              <h4 class="font-bold text-2xl">Sáng tạo</h4>
+              <p class="mt-4">
+                Tương tác với thương hiệu của bạn mạnh mẽ thông qua sự hợp tác
+                và chia sẻ ý tưởng thay vì chỉ đưa ra các lựa chọn cố định như
+                những bên khác
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="left">
+            <ion-icon class="info-icon" name="leaf-outline"></ion-icon>
+          </div>
+
+          <div class="">
+            <div class="">
+              <h4 class="font-bold text-2xl">Sáng tạo</h4>
+              <p class="mt-4">
+                Tương tác với thương hiệu của bạn mạnh mẽ thông qua sự hợp tác
+                và chia sẻ ý tưởng thay vì chỉ đưa ra các lựa chọn cố định như
+                những bên khác
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Introduce -->
+
+    <!-- Discussing -->
+    <div
+      class="container mx-auto md:mt-40 md:px-40 px-10 mt-20 grid lg:grid-cols-2 grid-cols-1 gap-10 xl:gap-52 md:gap-5"
+    >
+      <div class="left">
+        <img
+          src="https://www.shutterstock.com/image-vector/2-businesspeople-discussing-flat-vector-600nw-1941349606.jpg"
+          alt=""
+          class=""
+        />
+      </div>
+      <div class="right flex flex-col justify-center">
+        <h2 class="font-bold text-3xl">
+          Hãy cùng thảo luận về nhu cầu và vấn đề bạn đang có.
+        </h2>
+        <div class="description mt-5">
+          Melrol ở đây để đáp ứng lại nhu cầu của khách hàng. Đừng ngần ngại khi
+          liên hệ cho chúng tôi để nhận được sự tư vấn và giải pháp hợp lý.
+          Chúng tôi tôn trọng và nhắm tới mục tiêu xa hơn là chúng ta có thể gắn
+          kết làm việc lâu dài. Mỗi một phản hồi của bạn chính là cơ hội hợp tác
+          và phát triển hơn nữa của chúng tôi.
+        </div>
+        <div class="mt-4">
+          <button
+            class="btn px-7 py-2 rounded-full font-bold btn-primary hover:drop-shadow-2xl"
+          >
+            Liên hệ ngay
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End Discussing -->
+
+    <!-- Services -->
+    <div class="services container mx-auto md:mt-40 md:px-30 px-10 my-20">
+      <div
+        class="grid lg:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-2 2xl:gap-24 xl:gap-10 md:gap-5"
+      >
+        <div class="left">
+          <div class="prefix-title">Services - dịch vụ</div>
+          <div class="mt-2">
+            <h2 class="font-bold text-4xl">Bạn có thể lựa chọn.</h2>
+            <p class="mt-5">
+              Đây là những giải pháp mà chúng tôi hiện tại đề xuất cho bạn nếu
+              bạn cần thực hiện cho nhu cầu của chính mình
+            </p>
+          </div>
+          <div class="mt-4">
+            <button
+              class="btn px-7 py-2 rounded-full btn-primary hover:drop-shadow-2xl btn-more"
+            >
+              Thêm nữa
+            </button>
+          </div>
+        </div>
+        <div class="right grid grid-cols-1 md:grid-cols-2 lg:gap-4 gap-10">
+          <div class="">
+            <div class="none-block"></div>
+            <div class="primary-service p-6 text-white rounded-lg">
+              <ion-icon
+                class="icon-service"
+                name="logo-web-component"
+              ></ion-icon>
+              <h6 class="font-bold my-2 text-xl">Thiết kế Web</h6>
+              <div class="description">
+                Bạn cần một website riêng cho thương hiệu của mình
+              </div>
+            </div>
+            <div class="none-block"></div>
+            <div
+              class="primary-service second-service p-6 text-black rounded-lg"
+            >
+              <ion-icon
+                class="icon-service"
+                name="logo-web-component"
+              ></ion-icon>
+              <h6 class="font-bold my-2 text-xl">Thiết kế Web</h6>
+              <div class="description">
+                Bạn cần một website riêng cho thương hiệu của mình
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div
+              class="primary-service second-service p-6 text-black rounded-lg"
+            >
+              <ion-icon
+                class="icon-service"
+                name="logo-web-component"
+              ></ion-icon>
+              <h6 class="font-bold my-2 text-xl">Thiết kế Web</h6>
+              <div class="description">
+                Bạn cần một website riêng cho thương hiệu của mình
+              </div>
+            </div>
+            <div class="none-block"></div>
+            <div
+              class="primary-service second-service p-6 text-black rounded-lg"
+            >
+              <ion-icon
+                class="icon-service"
+                name="logo-web-component"
+              ></ion-icon>
+              <h6 class="font-bold my-2 text-xl">Thiết kế Web</h6>
+              <div class="description">
+                Bạn cần một website riêng cho thương hiệu của mình
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+
+    <!-- Projects -->
+    <div class="projects mx-auto">
+      <div class="pb-20">
+        <div class="top py-20 flex justify-center">
+          <div class="">
+            <div class="prefix-title">
+              Một số dự án của <span class="font-bold">Melrol</span>
+            </div>
+            <h2 class="font-bold text-4xl">
+              Chúng tôi thiết kế & phát triển các dự án .
+            </h2>
+            <p>Xem qua những dự án mới nhất. <a href="/">Xem thêm</a></p>
+          </div>
+        </div>
+        <div class="projects-list">
+          <div class="project mx-2 md:mx-8">
+            <div class="project-info">
+              <img
+                src="https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project6.jpg"
+                alt=""
+                class="image-project"
+              />
+              <div class="image-content">
+                <div class="flex justify-center items-center buttons">
+                  <div class="">
+                    <button
+                      class="btn px-7 py-2 rounded-full btn-primary hover:drop-shadow-2xl btn-more"
+                    >
+                      More info
+                    </button>
+                    <button
+                      class="btn px-7 py-2 rounded-full btn-primary hover:drop-shadow-2xl btn-more ml-2"
+                    >
+                      View Large
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-footer mt-6 text-center">
+              <p class="font-bold">My Goals App</p>
+              <p>Slider</p>
+            </div>
+          </div>
+          <div class="project mx-2 md:mx-8">
+            <div class="project-info">
+              <img
+                src="https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project6.jpg"
+                alt=""
+                class="image-project"
+              />
+              <div class="image-content">
+                <div class="flex justify-center items-center buttons">
+                  <div class="">
+                    <button
+                      class="btn px-7 py-2 rounded-full btn-primary hover:drop-shadow-2xl btn-more"
+                    >
+                      More info
+                    </button>
+                    <button
+                      class="btn px-7 py-2 rounded-full btn-primary hover:drop-shadow-2xl btn-more ml-2"
+                    >
+                      View Large
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-footer mt-6 text-center">
+              <p class="font-bold">My Goals App</p>
+              <p>Slider</p>
+            </div>
+          </div>
+          <div class="project mx-2 md:mx-8">
+            <div class="project-info">
+              <img
+                src="https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project6.jpg"
+                alt=""
+                class="image-project"
+              />
+              <div class="image-content">
+                <div class="flex justify-center items-center buttons">
+                  <div class="">
+                    <button
+                      class="btn px-7 py-2 rounded-full btn-primary hover:drop-shadow-2xl btn-more"
+                    >
+                      More info
+                    </button>
+                    <button
+                      class="btn px-7 py-2 rounded-full btn-primary hover:drop-shadow-2xl btn-more ml-2"
+                    >
+                      View Large
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-footer mt-6 text-center">
+              <p class="font-bold">My Goals App</p>
+              <p>Slider</p>
+            </div>
+          </div>
+          <div class="project mx-2 md:mx-8">
+            <div class="project-info">
+              <img
+                src="https://preview.treethemes.com/nyssa/demo1-clean/wp-content/uploads/sites/2/2022/08/project6.jpg"
+                alt=""
+                class="image-project"
+              />
+              <div class="image-content">
+                <div class="flex justify-center items-center buttons">
+                  <div class="">
+                    <button
+                      class="btn px-7 py-2 rounded-full btn-primary hover:drop-shadow-2xl btn-more"
+                    >
+                      More info
+                    </button>
+                    <button
+                      class="btn px-7 py-2 rounded-full btn-primary hover:drop-shadow-2xl btn-more ml-2"
+                    >
+                      View Large
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-footer mt-6 text-center">
+              <p class="font-bold">My Goals App</p>
+              <p>Slider</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Projects -->
+
+    <!-- Customer Review -->
+    <div class="">
+      <div class="container mx-auto px-2 lg:px-48 py-20">
+        <div class="customer-review">
+          <div class="none-block-customer"></div>
+          <div class="reviews lg:ml-48 md:ml-20 ml-10">
+            <div class="prefix-title">Khách hàng của chúng tôi</div>
+            <h5 class="font-bold text-4xl">Họ nói gì về chúng tôi.</h5>
+            <ul class="list-reviews mt-20">
+              <li class="mr-10 my-2">
+                <div
+                  class="review-content mx-3 p-5 bg-white rounded-lg text-center"
+                >
+                  <div class="user-avatar flex justify-center">
+                    <img
+                      class="rounded-full"
+                      src="https://melrol.com/wp-content/uploads/2022/09/testimonial4-80x80.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="content my-8">
+                    "Rapidiously integrate based resources whereas low-risk
+                    high-yield technologies. Proactively innovate market
+                    positioning products without B2B products resources before
+                    one-to-one applications recaptiualize negotiate timely
+                    synergy"
+                  </div>
+                  <div class="review-footer">
+                    <p class="user-name font-bold">John Doe</p>
+                    <p class="user-job text-xs">Bold</p>
+                  </div>
+                </div>
+              </li>
+              <li class="mr-10 my-2">
+                <div
+                  class="review-content mx-3 p-5 bg-white rounded-lg text-center"
+                >
+                  <div class="user-avatar flex justify-center">
+                    <img
+                      class="rounded-full"
+                      src="https://melrol.com/wp-content/uploads/2022/09/testimonial4-80x80.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="content my-8">
+                    "Rapidiously integrate based resources whereas low-risk
+                    high-yield technologies. Proactively innovate market
+                    positioning products without B2B products resources before
+                    one-to-one applications recaptiualize negotiate timely
+                    synergy"
+                  </div>
+                  <div class="review-footer">
+                    <p class="user-name font-bold">John Doe</p>
+                    <p class="user-job text-xs">Bold</p>
+                  </div>
+                </div>
+              </li>
+              <li class="mr-10 my-2">
+                <div
+                  class="review-content mx-3 p-5 bg-white rounded-lg text-center"
+                >
+                  <div class="user-avatar flex justify-center">
+                    <img
+                      class="rounded-full"
+                      src="https://melrol.com/wp-content/uploads/2022/09/testimonial4-80x80.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="content my-8">
+                    "Rapidiously integrate based resources whereas low-risk
+                    high-yield technologies. Proactively innovate market
+                    positioning products without B2B products resources before
+                    one-to-one applications recaptiualize negotiate timely
+                    synergy"
+                  </div>
+                  <div class="review-footer">
+                    <p class="user-name font-bold">John Doe</p>
+                    <p class="user-job text-xs">Bold</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Customer Review -->
+
+    <div class="time-to-change flex justify-center">
+      <div class="column"></div>
+    </div>
+    <div class="support flex justify-center my-20 text-center">
+      <div>
+        <p class="text-change">It's time to change</p>
+        <h4 class="font-bold text-6xl mt-10">Chúng tôi có thể giúp bạn!</h4>
+        <button
+          class="mt-20 btn px-7 py-2 rounded-full font-bold btn-primary hover:drop-shadow-2xl"
+        >
+          Liên hệ ngay
+        </button>
+      </div>
+    </div>
+
+    <footer class="py-20 footer">
+      <ul class="container mx-auto grid grid-cols-3">
+        <li class="flex flex-col justify-between items-center">
+          <ion-icon class="footer-icon" name="locate-outline"></ion-icon>
+          <p class="mt-5 text-sm">Tp. Thủ Đức, Tp. Hồ Chí Minh</p>
+        </li>
+        <li class="flex flex-col justify-between items-center">
+          <ion-icon class="footer-icon" name="mail-outline"></ion-icon>
+          <p class="mt-5 text-sm">work@melrol.com</p>
+          <p class="text-sm">info@melrol.com</p>
+        </li>
+        <li class="flex flex-col justify-between items-center">
+          <ion-icon class="footer-icon" name="call-outline"></ion-icon>
+          <p class="mt-5 text-sm">0917459572</p>
+        </li>
+      </ul>
+
+      <div class="author text-center mt-20">
+        <p>Melrol @2023</p>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
